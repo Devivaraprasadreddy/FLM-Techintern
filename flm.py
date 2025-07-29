@@ -1,5 +1,5 @@
 # Input list of email subjects
-emails = [New Lead from Form, Daily Report, Zoom Invite, Cybersecurity Lead]
+emails = ["New Lead from Form", "Daily Report", "Zoom Invite", "Cybersecurity Lead"]
 
 # Iterate and filter subjects containing lead
 for subject in emails:
