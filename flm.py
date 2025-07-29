@@ -3,6 +3,6 @@ emails = ["New Lead from Form", "Daily Report", "Zoom Invite", "Cybersecurity Le
 
 # Iterate and filter subjects containing lead
 for subject in emails:
-    if lead in subject.lower():
+    if "lead" in subject.lower():
         print(subject)
 
